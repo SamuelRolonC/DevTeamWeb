@@ -1,0 +1,334 @@
+ *{	
+
+}
+ 
+.header {	
+	padding-top:10px;
+	opacity: 0.5;
+	background: black;
+
+	}
+
+	.headerText {	
+	
+	font-family:'Open Sans', sans-serif;
+	box-shadow: 1px 1px 5px #000;
+	height: 70px;	
+	padding-left: 60px;
+	padding-top:0;
+
+	}
+
+	.headerText a:hover{
+	color:white;	
+	
+	}
+
+	
+	
+.logotipo{
+display: inline-block;
+margin:5px;
+
+}
+
+ 
+body{
+
+
+		background:#f2f2f2;
+
+		margin: 0;
+
+	/* background: #fffffa; */
+}
+
+.wrapper {	
+width: 90%;
+max-width:1000px;
+margin: auto;
+overflow:hidden;
+margin-top: 70px;
+}
+
+.preFooter{
+
+}
+
+.preFooter a:hover{
+color:#1ab2ff;
+transition: .7s;
+font-family: 'Heebo', sans-serif;font-size: 40px;
+}
+
+
+.preFooter p{
+float:right;
+
+}
+.preFooter h3{
+	display: inline-block;
+	font-family: 'Heebo', sans-serif;font-size: 30px;
+
+	color:#d9d9d9;
+
+
+}
+
+.preFooter h2{
+	font-family: 'Heebo', sans-serif;font-size: 40px;
+	color:#d9d9d9;	
+padding-bottom: 0;
+}
+
+
+.menu {
+
+	font-size: 18px;
+	display: inline-block;
+	padding-left: 250px;
+	color:grey;
+}
+
+
+
+.menu ul a {
+	padding: 7px 15px 7px 15px;
+	background: transparent;
+	border-bottom: 5px solid transparent;
+	
+}
+
+.menu li {
+	margin-left: 10px;
+	display: inline-block;
+	padding: 7px 15px 7px 15px;
+	text-decoration:none;
+
+	
+}
+
+
+/*.menu li a:hover{
+	border-bottom: 3px solid red;
+	padding-bottom: 17px;
+	transition:border-bottom .7s;
+}*/
+
+  .portada { 
+	background-image: url('../images/business.jpg'); 
+	color: white; 
+	padding-bottom: 270px; 
+	margin-top: 1px;
+	box-shadow: 1px 1px 5px #000;
+
+	} 
+
+.portadaText{
+	padding-top: 270px; 
+	padding-bottom: 10px;
+	width: 30%;
+ 	margin: 0 auto;
+	font-family:'Open Sans';
+
+}
+
+.portada button{
+
+border-radius: 5px;
+border:none;
+background: #fd324e;
+color: white;
+padding: 6px;
+cursor:pointer;
+text-decoration: none;
+font-size: 16px;
+background: linear-gradient{to left, #fe344e,#ff7250};
+
+}
+
+
+.titulo{
+	
+	font-size: 70px;
+	
+	margin-top: 0;
+	margin-bottom: 15px ;
+	line-height: 20px;
+	
+	
+}
+
+
+
+
+.title-a, .title-b{	
+		font-size: 20px;
+		margin-bottom: 15px;
+		overflow:hidden;
+}
+	
+.frase{	
+		font-size: 40px;
+		margin-bottom: 20px;
+			
+}
+
+.frase p{	
+		color:black;
+	
+}
+
+
+		
+
+
+.Seccionfrase{	
+	margin-top: 40px;
+	background:#e6e6e6;
+	opacity: 0.8;
+}
+	
+
+.equipo {
+	margin-top: 50px;
+	font-size: 20px;
+
+	}
+
+
+
+
+
+
+.equipo img
+ {
+	display: flex;
+	justify-content: space-between;
+	float:left;
+
+	
+	margin-left: 100px;
+	margin-right: 90px;
+
+}
+
+ h2{
+ 	font-family: 'Heebo', sans-serif;font-size: 70px;
+	color:#d9d9d9;
+	
+	
+}
+
+.equipo ul a{
+		font-family: 'Heebo', sans-serif;font-size: 15px;
+
+}
+.equipo a:hover{
+	color:red;
+}
+
+.Actividades {
+	margin-bottom: 50px;
+	color: #1F313C;
+	font-size: 20px;
+	/* background-image: url('../images/background2.jpg'); */
+	/* color: white; */
+	/* padding: 0px; */
+	
+}
+
+.Actividades img{
+	display: flex;
+	justify-content: space-between;
+	float:left;
+	margin-left: 10px;
+	padding-left: 370px;	
+}
+
+.Actividades li a{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.Nombres .wrapper {
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+	
+.Descripcion .wrapper {
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 30px;
+	padding-left: 300px;
+	font-family: 'Heebo', sans-serif;font-size: 20px;
+}
+
+.descripcion .wrapper a{
+
+}
+
+.footer{	
+background:#e6e6e6;
+}
+
+.contacto{
+display: flex;
+width: 400px;
+flex-wrap: wrap;
+}
+
+.contacto img{
+	display:block;
+}
+
+.contacto strong{
+	display: block;	
+	color:black;
+}
+.contacto span{
+	color: black;
+}
+.contacto a{
+margin:  10px 10px 10px 0px;	
+}
+
+.footer .wrapper{
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.footer img
+{
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.col1,.col2{
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+}
+
+.formulario{
+	margin-left: 120px;
+	display: flex;
+	width: 600px;
+	color:black;
+}
+
+.formulario label, .sexo, .intereses{
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+ 
